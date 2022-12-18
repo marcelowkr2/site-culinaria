@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+:root{
+    /**Todas as cores**/
+    --dark-primary-color: #ffa000;
+    --light-primary-color: #ffecb3;
+    --primary-color: #FFC107;
+    --text-and-icons: #212121;
+    --accent-color: #FFC107;
+    --primary-text: #212121;
+    --secundary-text: #757575;
+    --divider-color: #bdbdbd;
+}
