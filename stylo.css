@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body{
+    
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 16px;
+    }
+
+:root{
+    /**Todas as cores**/
+    --dark-primary-color: #ffa000;
+    --light-primary-color: #ffecb3;
+    --primary-color: #FFC107;
+    --text-and-icons: #212121;
+    --accent-color: #FFC107;
+    --primary-text: #212121;
+    --secundary-text: #757575;
+    --divider-color: #bdbdbd;
+}
+
+header div{
+    background-color: var(--primary-color);
+    box-shadow: 0px 2px 4px #000;
+    z-index: 1000;
+    position: relative;
+    }
+
+header nav{
+    background-color: var(--dark-primary-color);
+  height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a{
+    color: #fff;
+    margin: 0px 10px;
+    font-weight: bolder;
+    }
+
+  header nav a:hover {
+    transition: 0,4s;
+    color:blueviolet
+  }
+
+  .secao-generica{
+    width: 100vw;
+    height: 100vh;
+}
+
+#receitas-com-afeto {
+    background-image: url(/assets/imagens/banner.png);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+h1{
+    width: 400px;
+    font-size: 72px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    color: #fcf8f8;
+    position: absolute;
+    left: 66%;
+    top: 16%;
+}
+
+
+#receitas-da-semana{
+    font-size: 50px;
+    color: var(--dark-primary-color);
+    text-align: center;
+}
+
+.card-horizontal{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.card-receitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-receitas strong{
+    font-size: 26px;
+}
+
+.card-receitas button{
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    background-color: darkgreen;
+}
+
+.card-receitas button:hover{
+
+    background-color: rgb(64, 109, 22);
+    transition: 0,4s;
+}
+
+#comer-e-viver{
+    position: relative;
+    background-image: url(/assets/imagens/comer_e_viver.png);
+}
+
+#titulo-comer-e-viver{
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#comer-e-viver p {
+    color: #fff;
+    font-weight: 500;
+    font-size: large;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    background-color: var(--dark-primary-color);
+    color: #fff;
+    text-align: center;
+}
