@@ -57,7 +57,7 @@ header nav a{
 }
 
 #receitas-com-afeto {
-    background-image: url(/assets/imagens/banner.png);
+    background-image: url(assets/imagens/banner.png);
     position: relative;
     background-repeat: no-repeat;
 }
